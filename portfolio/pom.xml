@@ -96,6 +96,14 @@
         </executions>
       </plugin>
 
+
+    <!-- Google Cloud Datastore -->
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-datastore</artifactId>
+      <version>1.104.0</version>
+    </dependency>
+
       <!-- App Engine plugin for deploying to the live site. -->
       <plugin>
         <groupId>com.google.cloud.tools</groupId>
